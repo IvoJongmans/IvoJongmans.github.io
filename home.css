@@ -97,13 +97,13 @@ img {
 }
 
 #push {
-    height: 50px;
+    height: 55px;
 }
 
 #footer {
    font-family: 'Poppins', sans-serif;
    position: fixed;
-   height: 50px;
+   height: 55px;
    left: 0;
    bottom: 0;
    color: white;
