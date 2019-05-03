@@ -1,0 +1,119 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #18386d;
+    color: white;
+}
+
+.celsius {
+    color: orangered;
+}
+
+.mainfoto, .overmij, .htmlfade, .cssfade, .jsfade, .jqueryfade,
+.bootstrapfade, .projectfade, .formfade {
+    display: none;
+}
+
+#fotoik {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border: 5px solid orangered;
+}
+
+#github_link {
+    text-decoration: none;
+    color: orangered;
+}
+
+#form_link {
+    text-decoration: none;
+    color: #FFD05B;
+}
+
+#github_link:hover {
+    text-decoration: underline;
+}
+
+#form_link:hover {
+    text-decoration: underline;
+}
+
+#htmlimg {
+    width: 111px;
+    height: 111px;
+    padding: 10px;
+    border-radius: 60px;
+    border: 5px solid #E54C21;
+}
+
+#cssimg {
+    width: 111px;
+    height: 111px;
+    padding: 10px;
+    border-radius: 60px;
+    border: 5px solid #379AD6;
+}
+
+#jsimg {
+    width: 111px;
+    height: 111px;
+    padding: 10px;
+    border-radius: 60px;
+    border: 5px solid #D6BA32;
+}
+
+#jqueryimg {
+    width: 111px;
+    height: 111px;
+    padding: 10px;
+    border-radius: 60px;
+    border: 5px solid #1069AD;
+}
+
+#bootstrapimg {
+    width: 111px;
+    height: 111px;
+    padding: 10px;
+    border-radius: 60px;
+    border: 5px solid #62488A;
+}
+
+#projectimg {
+    width: 111px;
+    height: 111px;
+    padding: 10px;
+    border-radius: 60px;
+    border: 5px solid #FFD05B;
+}
+
+.html {
+    padding: 20px;
+}
+
+.css {
+    padding: 20px;
+}
+
+.javascript {
+    padding: 20px;
+}
+
+.jquery {
+    padding: 20px;
+}
+
+.bootstrap {
+    padding: 20px;
+}
+
+.project {
+    padding: 20px;
+}
+
+.button {
+    border-radius: 10px;
+}
+
+.formfade  {
+    padding: 50px;
+}
