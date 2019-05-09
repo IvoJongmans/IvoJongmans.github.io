@@ -20,7 +20,7 @@ body {
     border: 5px solid orangered;
 }
 
-#github_link {
+.github_link {
     text-decoration: none;
     color: orangered;
 }
