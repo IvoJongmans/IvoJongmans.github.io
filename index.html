@@ -1,168 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Portfolio Ivo Jongmans</title>
+
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <link rel="stylesheet" href="main.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $(".mainfoto").fadeIn(1000).removeClass(".mainfoto");
-      $(".overmij").delay(500).fadeIn(1000).removeClass(".overmij");
-      $(".htmlfade").delay(1500).fadeIn(1000).removeClass(".htmlfade");
-      $(".cssfade").delay(2000).fadeIn(1000).removeClass(".cssfade");
-      $(".jsfade").delay(2500).fadeIn(1000).removeClass(".jsfade");
-      $(".jqueryfade").delay(3000).fadeIn(1000).removeClass(".jqueryfade");
-      $(".bootstrapfade").delay(3500).fadeIn(1000).removeClass(".bootstrapfade");
-      $(".projectfade").delay(4000).fadeIn(1000).removeClass(".projectfade");
-      $(".formfade").delay(4500).fadeIn(1000).removeClass(".formfade");
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    });
+  <title>Ivo Jongmans</title>
 
-  </script>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
 </head>
 
-<body>
-  
- <div class="container">
-   <div class="row">
-     <div class="col-xs-12">
-       <h1 class="text-center">Portfoli<span class="celsius">º</span></h1>
-     </div>
-   </div>
- </div>
+<body id="page-top">
 
- <div class="container">
-    <div class="row">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Ivo Jongmans</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/ivojongmans.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-      <div class="col-sm-6 mainfoto">
-        <div class="text-center">
-          <a href="https://www.linkedin.com/in/ivo-jongmans-4121ba186/" target="_blank"><img id="fotoik" src="ik.jpg" alt="#"></a>
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Ivo  
+          <span class="text-primary">Jongmans</span>
+        </h1>
+        <div class="subheading mb-5">Sint Jansstraat 15B · 9712JM, Groningen · 0648552761 ·
+          <a href="mailto:name@email.com">ivojongmans@gmail.com</a>
+        </div>
+        <p class="lead mb-5">Young aspiring web developer who has a passion for programming.</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/ivo-jongmans-4121ba186/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/IvoJongmans" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
         </div>
       </div>
+    </section>
 
-      <div class="col-sm-6 overmij">
-        <h1 class="text-center">Over mij</h1>
-        <p>Hallo! Mijn naam is Ivo Jongmans. In december 2018 ben ik begonnen met programmeren. 
-            Ik ben gestart met HTML en heb mijzelf gaandeweg verrijkt met CSS, JavaScript, Bootstrap en jQuery.
-            Op dit moment volg ik een opleiding bij CodeGorilla in Groningen om junior webdeveloper te worden en mijn skillset uit te breiden (JSON, AJAX, PHP & SQL).
-            Ik heb de afgelopen maanden veel geleerd en hoop een mooie carrière te kunnen opbouwen met de skills
-            die ik heb toegevoegd aan mijn repertoire. Je kunt mijn progressie via deze site en mijn 
-            <a class="github_link" href="https://github.com/IvoJongmans" target="_blank">GitHub</a> bijhouden. Via het 
-            <a href="#formscroll" id="form_link">formulier</a> onderaan deze pagina kunt 
-            u contact met mij opnemen.
-        </p>
+    <hr class="m-0">
+
+    <!-- <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Student Web Developer</h3>
+            <div class="subheading mb-3">CodeGorilla</div>
+            <p>I've learned all my essential skills during this programming bootcamp and in my spare time.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">April 2019 - Present</span>
+          </div>
+        </div>
+        
       </div>
 
-    </div>
+    </section> -->
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Student Web Developer</h3>
+            <div class="subheading mb-3">CodeGorilla</div>
+            <div>Web Development Track</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">April 2019 - August 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Luzac Groningen</h3>
+            <div class="subheading mb-3">VWO-diploma</div>
+            
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary"></span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-bootstrap"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-sass"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-php"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-database"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-laravel"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-vuejs"></i>
+          </li>
+        </ul>
+
+        <!-- <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            
+            </li>
+        </ul> -->
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>Apart from being a web developer, I enjoy spending my spare time outdoors. In the winter, I am an avid skier. During the warmer months, I enjoy cycling and hiking.</p>
+        <p class="mb-0">When forced indoors, I like to read books, play games and watch television shows. I love to cook and enjoy being around friends.</p>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
   </div>
 
- <div class="container">
-   <div class="row">
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <div class="col-sm-6 htmlfade">      
-      <div class="text-center html">
-      <img id="htmlimg" src="html5.png" alt="#">
-      </div>
-      <h1 class="text-center">HTML</h1>
-      <p>In 2018 ben ik begonnen met het programmeren in HTML. Deze programmeertaal ligt 
-        nu bijna altijd ten grondslag aan mijn projecten. Van simpele snippet tot volledige 
-        website. HTML is mijn 'gateway' geweest naar het programmeren en zal altijd een vaste
-        waarde zijn binnen mijn skillset.
-      </p>
-    </div>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <div class="col-sm-6 cssfade">      
-      <div class="text-center css">
-      <img id="cssimg" src="css.png" alt="#">
-    </div>
-    <h1 class="text-center">CSS</h1>
-      <p>Ik gebruik CSS om een groot deel van mijn HTML elementen te stylen en positioneren. Een 
-        gridje hier en een flexboxje daar. Met CSS leerde ik voor het eerst repsonsive websites maken 
-        door middel van media queries. 
-      </p>
-    </div>
-   </div>
-
-  <div class="row">
-
-    <div class="col-sm-6 jsfade">      
-      <div class="text-center javascript">
-      <img id="jsimg" src="js.png" alt="#">
-      </div>
-      <h1 class="text-center">JavaScript</h1>
-    <p>Fugiat qui ullamco non ipsum sunt do deserunt excepteur adipisicing culpa. Consectetur in dolore amet tempor cupidatat duis. Esse ipsum esse eu consequat incididunt do laborum consequat magna. Ullamco quis duis est officia ad Lorem voluptate anim excepteur fugiat ipsum. Excepteur magna do ex aute aliqua nisi ullamco ea est.</p>
-    </div>
-
-    <div class="col-sm-6 jqueryfade">      
-      <div class="text-center jquery">
-      <img id="jqueryimg" src="jquery.png" alt="#">
-      </div>
-      <h1 class="text-center">JQuery</h1>
-      <p>Laboris sit consequat pariatur amet duis do magna. Ex laborum dolor fugiat pariatur sit. Dolore id nisi velit nisi officia adipisicing. Commodo aliquip enim voluptate reprehenderit magna excepteur magna esse occaecat cillum.</p>
-    </div>
-
-  </div> 
-
-    
-  <div class="row">
-    <div class="col-sm-6 bootstrapfade">      
-      <div class="text-center bootstrap">
-      <img id="bootstrapimg" src="bootstrap.png" alt="#">
-      </div>
-      <h1 class="text-center">Bootstrap</h1>
-      <p>Laboris sit consequat pariatur amet duis do magna. Ex laborum dolor fugiat pariatur sit. Dolore id nisi velit nisi officia adipisicing. Commodo aliquip enim voluptate reprehenderit magna excepteur magna esse occaecat cillum.</p>
-    </div>
-
-  
-    <div class="col-sm-6 projectfade">      
-      <div class="text-center project">
-      <img id="projectimg" src="project.png" alt="#">
-      </div>
-      <h1 class="text-center">Projecten</h1>
-      <p>In deze sectie vindt u alle projecten die ik succesvol heb afgerond.
-      <ul>
-        <li><a class="github_link" href="http://djpape.nl/" target="_blank">DJ Pape</a></li>
-      </ul>
-      </p>
-    </div>
-
-    </div>
-
-    
-    <div class="row">
-    <div class="col-sm-12 formfade" id="formscroll">
-        <form action="send_mail.php" class="col-centered" method="post" id="form"> 
-            <div class="form-group">
-                <label for="naam">Naam:</label>
-                <input type="text" class="form-control" name="first_name" id="naam" required>
-              </div>
-              <div class="form-group">
-                <label for="email">E-mail:</label>
-                <input type="email" class="form-control" name="email_address" id="email" required>
-              </div>
-              <div class="form-group">
-                <label for="bericht">Bericht:</label>
-                <textarea class="form-control" rows="5" name="comments" id="bericht" required></textarea>
-              </div>
-              <div class="form-group text-center">
-                  <button class="btn btn-danger" type="submit">Verstuur!</button>
-              </div>
-             </form>
-    </div>
-    </div>
-
-    </div>  
-
-  
-
-
-
-
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
 
 </body>
+
 </html>
